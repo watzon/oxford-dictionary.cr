@@ -8,7 +8,7 @@ Add this to your application's `shard.yml`:
 
 ```yaml
 dependencies:
-  oxford:
+  oxford-dictionary:
     github: watzon/oxford-dictionary.cr
     branch: master
 ```
