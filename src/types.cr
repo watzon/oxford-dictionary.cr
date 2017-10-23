@@ -3,7 +3,6 @@ require "jq"
 module Types
     class Result
         Jq.mapping({
-            metadata: ResultMetadata,
             results: {Array(Word), ".results[]"},  
         })
     end
