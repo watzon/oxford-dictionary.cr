@@ -8,7 +8,7 @@ Add this to your application's `shard.yml`:
 
 ```yaml
 dependencies:
-  oxford-dictionary:
+  oxford_dictionary:
     github: watzon/oxford-dictionary.cr
     branch: master
 ```
@@ -18,7 +18,7 @@ and run `crystal deps`.
 ## Usage
 
 ```crystal
-require "oxford-dictionary"
+require "oxford_dictionary"
 
 dict = OxfordDictionary.new("app_id", "app_key")
 fjord = dict.define("fjord")
