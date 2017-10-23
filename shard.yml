@@ -1,0 +1,14 @@
+name: oxford-dictionary
+version: 0.1.0
+
+authors:
+  -  <>
+
+dependencies:
+  jq:
+    github: maiha/jq.cr
+    version: 0.5.0
+
+crystal: 0.23.1
+
+license: MIT
